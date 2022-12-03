@@ -7,6 +7,48 @@ body {
     background-color: #f6f8fc;
 }
 
+ol {
+  list-style: none;  
+}
+
+.sub-title {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.tag {
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+
+.go-back {
+    margin: 20px 0;
+    font-size: .9em;
+    text-decoration: none;
+    color:blue;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.badge {
+    display: inline-block;
+    min-width: 16px; 
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    background: red;
+    color: #fefefe;
+    font-weight: bold;
+    line-height: normal;
+}
+
 .content {
     width: 100vw;
     height: 100vh;
