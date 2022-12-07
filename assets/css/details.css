@@ -31,12 +31,19 @@
 
 .detail-container .detail-header__img {
     text-align: center;
+    
+}
+
+img {
+   max-width: 100%;
 }
 
 .detail-container .detail-header__img .number {
     display: block;
     text-align: right;
+
 }
+
 
 .detail-container .detail-description {
     background-color: rgba(169, 169, 169, 0.157);
